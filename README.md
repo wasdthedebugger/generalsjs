@@ -4,9 +4,15 @@ This library provides a set of classes and functions for dynamically creating HT
 
 ## Usage
 
+Index.html has a simple example of the library. The library is imported in the index.html file and the index.js file contains the code that uses the library.
+
 ### Installation
 
-You can include the provided code directly in your project or use it as a separate module.
+You can include the provided code directly in your project or use it as a separate module. 
+
+```html
+<script src="https://wasdthedebugger.github.io/generalsjs/generals.js"></script>
+```
 
 ### Classes
 
