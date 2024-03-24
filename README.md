@@ -1,4 +1,4 @@
-# Dynamic HTML Element Creation Library
+# GeneralsJS
 
 This library provides a set of classes and functions for dynamically creating HTML elements and manipulating the DOM.
 
