@@ -1,5 +1,5 @@
 const generalProperties = GeneralsProperties.getInstance();
-generalProperties.setTitle('New Title');
+generalProperties.setTitle('GeneralsJS Example');
 generalProperties.setBodyStyles({
     margin: '0',
     padding: '0',
@@ -12,7 +12,7 @@ const mainDiv = new Div('#root', 'main-div', {
     padding: '10px',
     marginBottom: '50px'
 });
-const mainHeading = new Heading('#main-div', 'main-heading', 'Hello World', {
+const mainHeading = new Heading('#main-div', 'main-heading', 'Made using GeneralsJS', {
     fontSize: '24px',
     color: 'red'
 });
@@ -43,7 +43,7 @@ const counter = new Paragraph('#number-button-div', 'counter-paragraph', '0', {
     color: 'green'
 });
 let count = 0;
-const meroButton = new Button('#number-button-div', 'mero-button', 'Mero', () => {
+const meroButton = new Button('#number-button-div', 'mero-button', 'Increase Count', () => {
     counter.changeContent(`${++count}`);
 }, {
     padding: '5px',
