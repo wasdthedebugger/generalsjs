@@ -1,6 +1,3 @@
-Sure, here's a basic `README.md` documentation for the provided code:
-
-```markdown
 # Dynamic HTML Element Creation Library
 
 This library provides a set of classes and functions for dynamically creating HTML elements and manipulating the DOM.
